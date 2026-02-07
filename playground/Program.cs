@@ -9,6 +9,6 @@ for (int x = 0; x < 5; x++)
     {
         var t = BiomeFields.Temperature(x * 64, z * 64, seed.Value);
         var h = BiomeFields.Humidity(x * 64, z * 64, seed.Value);
-        Console.WriteLine($"({x},{z}) temp={t:F2} humid={h:F2}");
+        System.Console.WriteLine($"({x},{z}) temp={t:F2} humid={h:F2}");
     }
 }
